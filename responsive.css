@@ -1,0 +1,79 @@
+/* タブレット端末表示 */
+@media (max-width: 1000px) {
+	* {
+		max-width: 700px;
+	}
+	.content { 
+		display: block;
+	}
+	.content-about {
+		padding-left: initial;
+	}
+	.page-move {
+		text-align: left;
+	}
+	.footer-container {
+		padding-bottom: 800px;
+	}
+	.footer-profile {
+		padding-bottom: 50px;
+	}
+	.footer-contents {
+		padding-top: 80px;
+	}
+	.footer-text {
+		margin-bottom: 30px;
+	}
+	.footer-container, .footer-profile {
+		float: left;
+		display: block;
+	}
+	.footer-profile, .footer-contents {
+		width: auto;
+	}
+	.copy-right {
+		display: block;
+		text-align: left;
+		padding-top: 30px;
+	}
+}
+/* スマートフォン表示 */
+@media (max-width: 700px) {
+	* {
+		max-width: 500px;
+	}
+	.header-menu {
+		display: none;
+	}
+	header {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+	}
+	.menu-icon {
+		display: block;
+		float: right;
+		padding-top: 30px;
+		padding-right: 5px;
+	}
+	.main-img img {
+		padding-top: 70px;
+		background-size: contain;
+	}
+	.main-text, .content, footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.page-first-button, .page-move-button {
+		display: none;
+	}
+	h2, h3 {
+		font-size: 18px;
+	}
+	.content p, .footer-contents p, .footer-contents a, .copy-right {
+		font-size: 13px;
+	}
+	.copy-right {
+		text-align: left;
+	}
+}
